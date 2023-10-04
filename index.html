@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cat runner</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<img class="absolute playfon" src="img/playfon.png" alt="none">
+	</div>
+
+	<div>
+		<h1 class="absolute" id="scoreText">Your score:</h1>
+	</div>
+	<div>
+		<h2 class="absolute" id="counterClick">0</h2>
+	</div>
+	<div onkeydown="jump"></div>
+	<div class="absolute game">
+		<div class="absolute" id="cat"></div>
+		<div class="absolute" id="cactus"></div>
+	</div>
+
+	<p class="absolute p-text">Помоги котику спастись от кактусов!</p>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
